@@ -10,7 +10,3 @@ def get_dog_picture() -> str | None:
         return response.json()[0]['url']
     else:
         return None
-
-
-if __name__ == '__main__':
-     print(get_dog_picture())
