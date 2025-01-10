@@ -1,4 +1,3 @@
-import pytest
 from main import get_dog_picture
 
 
